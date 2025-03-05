@@ -188,7 +188,7 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: '100%',
-    backgroundColor: '#FF6D6A',
+    backgroundColor: '#164860',
     borderRadius: 3,
   },
   campaignStats: {
@@ -198,7 +198,7 @@ const styles = StyleSheet.create({
   campaignRaised: {
     fontSize: 14,
     fontFamily: 'Poppins-Medium',
-    color: '#FF6D6A',
+    color: '#164860',
   },
   campaignGoal: {
     fontSize: 14,
@@ -331,7 +331,7 @@ const styles = StyleSheet.create({
     height: 20,
     borderRadius: 10,
     borderWidth: 2,
-    borderColor: '#FF6D6A',
+    borderColor: '#164860',
     justifyContent: 'center',
     alignItems: 'center',
     marginRight: 12,
@@ -340,7 +340,7 @@ const styles = StyleSheet.create({
     width: 10,
     height: 10,
     borderRadius: 5,
-    backgroundColor: '#FF6D6A',
+    backgroundColor: '#164860',
   },
   paymentMethodText: {
     fontSize: 14,
@@ -348,7 +348,7 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   donateButton: {
-    backgroundColor: '#FF6D6A',
+    backgroundColor: '#164860',
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',

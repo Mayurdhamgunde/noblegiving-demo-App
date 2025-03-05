@@ -15,11 +15,11 @@ export default function ProfileScreen() {
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
         <View style={styles.profileSection}>
           <Image 
-            source={{ uri: 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200&auto=format&fit=crop' }} 
+            source={{ uri: 'https://avatars.githubusercontent.com/u/122667962?v=4' }} 
             style={styles.profileImage} 
           />
-          <Text style={styles.profileName}>Rahul Sharma</Text>
-          <Text style={styles.profileEmail}>rahul.sharma@example.com</Text>
+          <Text style={styles.profileName}>Mayur Dhamgunde</Text>
+          <Text style={styles.profileEmail}>mayurdhamgunde@gmail.com</Text>
           <View style={styles.statsContainer}>
             <View style={styles.statItem}>
               <Text style={styles.statValue}>₹12,500</Text>
@@ -57,7 +57,7 @@ export default function ProfileScreen() {
         <View style={styles.menuContainer}>
           <TouchableOpacity style={styles.menuItem}>
             <View style={styles.menuIconContainer}>
-              <Heart size={20} color="#FF6D6A" />
+              <Heart size={20} color="#164860" />
             </View>
             <View style={styles.menuTextContainer}>
               <Text style={styles.menuTitle}>Saved Campaigns</Text>
@@ -90,7 +90,7 @@ export default function ProfileScreen() {
         </View>
 
         <TouchableOpacity style={styles.logoutButton}>
-          <LogOut size={20} color="#FF6D6A" />
+          <LogOut size={20} color="#164860" />
           <Text style={styles.logoutText}>Logout</Text>
         </TouchableOpacity>
 
@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
   statValue: {
     fontSize: 18,
     fontFamily: 'Poppins-Bold',
-    color: '#FF6D6A',
+    color: '#164860',
     marginBottom: 4,
   },
   statLabel: {
@@ -218,7 +218,7 @@ const styles = StyleSheet.create({
   donationAmount: {
     fontSize: 14,
     fontFamily: 'Poppins-SemiBold',
-    color: '#FF6D6A',
+    color: '#164860',
     marginBottom: 2,
   },
   donationDate: {
@@ -234,7 +234,7 @@ const styles = StyleSheet.create({
   viewAllText: {
     fontSize: 14,
     fontFamily: 'Poppins-Medium',
-    color: '#FF6D6A',
+    color: '#164860',
   },
   menuContainer: {
     backgroundColor: '#fff',
@@ -282,7 +282,7 @@ const styles = StyleSheet.create({
   logoutText: {
     fontSize: 16,
     fontFamily: 'Poppins-Medium',
-    color: '#FF6D6A',
+    color: '#164860',
     marginLeft: 8,
   },
   versionInfo: {

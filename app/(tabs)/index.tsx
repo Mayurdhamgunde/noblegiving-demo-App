@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
     marginBottom: 12,
   },
   donateButton: {
-    backgroundColor: '#FF6D6A',
+    backgroundColor: '#164860',
     paddingVertical: 8,
     paddingHorizontal: 16,
     borderRadius: 20,
@@ -222,7 +222,7 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: '100%',
-    backgroundColor: '#FF6D6A',
+    backgroundColor: '#164860',
     borderRadius: 3,
   },
   campaignStats: {
@@ -232,7 +232,7 @@ const styles = StyleSheet.create({
   campaignRaised: {
     fontSize: 12,
     fontFamily: 'Poppins-Medium',
-    color: '#FF6D6A',
+    color: '#164860',
   },
   campaignGoal: {
     fontSize: 12,
@@ -292,7 +292,7 @@ const styles = StyleSheet.create({
   donationAmount: {
     fontSize: 12,
     fontFamily: 'Poppins-SemiBold',
-    color: '#FF6D6A',
+    color: '#164860',
   },
   donationTime: {
     fontSize: 10,

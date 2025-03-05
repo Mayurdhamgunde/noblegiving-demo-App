@@ -41,7 +41,7 @@ export default function ExploreScreen() {
           <Text style={styles.sectionTitle}>Featured Campaigns</Text>
           <TouchableOpacity style={styles.featuredCampaign}>
             <Image 
-              source={{ uri: 'https://images.unsplash.com/photo-1593113598332-cd59a93c5156?q=80&w=2000&auto=format&fit=crop' }} 
+              source={{ uri: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsoadIQoulPseqpGW0iqlKwbgA_otI43Ra2OpN0Zt7dnP5gtqFcbmxc9WSYL-9ImX72wg&usqp=CAU' }} 
               style={styles.featuredImage} 
             />
             <View style={styles.featuredOverlay}>
@@ -66,14 +66,14 @@ export default function ExploreScreen() {
           {[1, 2, 3, 4, 5].map((item) => (
             <TouchableOpacity key={item} style={styles.campaignCard}>
               <Image 
-                source={{ uri: `https://images.unsplash.com/photo-${1580000000000 + item * 1000}?q=80&w=500&auto=format&fit=crop` }} 
+                source={{ uri: `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsoadIQoulPseqpGW0iqlKwbgA_otI43Ra2OpN0Zt7dnP5gtqFcbmxc9WSYL-9ImX72wg&usqp=CAU` }} 
                 style={styles.campaignImage} 
               />
               <View style={styles.campaignContent}>
                 <View style={styles.campaignHeader}>
                   <Text style={styles.campaignCategory}>Education</Text>
                   <TouchableOpacity style={styles.favoriteButton}>
-                    <Heart size={16} color="#FF6D6A" />
+                    <Heart size={16} color="#164860" />
                   </TouchableOpacity>
                 </View>
                 <Text style={styles.campaignTitle}>Support Rural Education</Text>
@@ -164,7 +164,7 @@ const styles = StyleSheet.create({
     marginRight: 8,
   },
   categoryPillActive: {
-    backgroundColor: '#FF6D6A',
+    backgroundColor: '#164860',
   },
   categoryPillText: {
     fontSize: 12,
@@ -203,7 +203,7 @@ const styles = StyleSheet.create({
   },
   featuredOverlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(0,0,0,0.4)',
+    backgroundColor: 'rgba(78, 87, 124, 0.6)',
     justifyContent: 'flex-end',
   },
   featuredContent: {
@@ -213,7 +213,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontFamily: 'Poppins-Bold',
     color: '#fff',
-    marginBottom: 4,
+    marginBottom: 1,
   },
   featuredDescription: {
     fontSize: 12,
@@ -252,7 +252,7 @@ const styles = StyleSheet.create({
   campaignCategory: {
     fontSize: 12,
     fontFamily: 'Poppins-Medium',
-    color: '#FF6D6A',
+    color: '#164860',
   },
   favoriteButton: {
     padding: 4,
@@ -278,7 +278,7 @@ const styles = StyleSheet.create({
   },
   progressBar: {
     height: '100%',
-    backgroundColor: '#FF6D6A',
+    backgroundColor: '#164860',
     borderRadius: 3,
   },
   campaignStats: {
@@ -289,7 +289,7 @@ const styles = StyleSheet.create({
   campaignRaised: {
     fontSize: 12,
     fontFamily: 'Poppins-Medium',
-    color: '#FF6D6A',
+    color: '#164860',
   },
   campaignGoal: {
     fontSize: 12,
@@ -310,7 +310,7 @@ const styles = StyleSheet.create({
     color: '#333',
   },
   donateNowButton: {
-    backgroundColor: '#FF6D6A',
+    backgroundColor: '#164860',
     paddingVertical: 6,
     paddingHorizontal: 12,
     borderRadius: 4,
