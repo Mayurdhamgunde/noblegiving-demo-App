@@ -80,11 +80,11 @@ export default function HomeScreen() {
           {[1, 2, 3].map((item) => (
             <View key={item} style={styles.donationItem}>
               <Image 
-                source={{ uri: `https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=100&auto=format&fit=crop` }} 
+                source={{ uri: `https://media.licdn.com/dms/image/v2/D4D03AQFySbKUMCXP_A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1705393267085?e=2147483647&v=beta&t=1Qxt_ZwHlyFd1qgJM6SpuHPG8h_Mi-VnvtpwJblJ6nY` }} 
                 style={styles.donorImage} 
               />
               <View style={styles.donationInfo}>
-                <Text style={styles.donorName}>Rahul Sharma</Text>
+                <Text style={styles.donorName}>Mayur Dhamgunde</Text>
                 <Text style={styles.donationAmount}>Donated ₹5,000</Text>
                 <Text style={styles.donationTime}>2 hours ago</Text>
               </View>
